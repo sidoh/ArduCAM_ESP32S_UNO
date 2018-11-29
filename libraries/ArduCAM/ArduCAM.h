@@ -157,8 +157,6 @@
 	#define cport(port, data) port &= data
 	#define sport(port, data) port |= data
 	
-	#define swap(type, i, j) {type t = i; i = j; j = t;}
-	
 	#define fontbyte(x) cfont.font[x]  
 	
 	#define regtype volatile uint32_t
@@ -173,8 +171,6 @@
 	
 	#define cport(port, data) port &= data
 	#define sport(port, data) port |= data
-	
-	#define swap(type, i, j) {type t = i; i = j; j = t;}
 	
 	#define fontbyte(x) cfont.font[x]  
 	
